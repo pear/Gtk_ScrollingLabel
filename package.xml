@@ -50,18 +50,18 @@
   </release>
   <changelog>
     <release>
-      <version>0.1.0dev1</version>
-      <date>2004-07-01</date>
-      <license>PHP License</license>
-      <state>devel</state>
-      <notes>First release</notes>
-    </release>
-    <release>
       <version>0.2.0aplha1</version>
       <date>2004-08-05</date>
       <license>PHP License</license>
       <state>beta</state>
       <notes>Added style set and get.</notes>
+    </release>
+    <release>
+      <version>0.1.0dev1</version>
+      <date>2004-07-01</date>
+      <license>PHP License</license>
+      <state>devel</state>
+      <notes>First release</notes>
     </release>
   </changelog>
 </package>
