@@ -14,9 +14,9 @@
  * @author Scott Mattocks                          
  * @package ScrollingLabel                     
  *                                                 
- * @todo Make text display style changable.        
  * @todo Allow text to wrap the visible area.
- * @todo Lots of error checking and validation.    
+ * 
+ * $Id$
  */
 
 /**
@@ -600,9 +600,26 @@ class Gtk_ScrollingLabel {
    * @param  &object $style The GTK_Style object to use.
    * @return &object
    */
-  function &setStyle(&$style)
+  function setStyle(&$style)
   {
-    // This is to be done later.
+      $this->label->set_style($style);
+  }
+
+  /**
+   * Get the label's style widget.
+   *
+   * getStyle() returns the label's style widget. This lets you
+   * make changes to the style to alter the look and feel of the 
+   * widget. You can change the font of the display, the color of
+   * the background, etc.
+   * 
+   * @access public
+   * @param  none
+   * @return &object
+   */
+  function &getStyle()
+  {
+      return $this->label->get_style();
   }
 
   /**
