@@ -8,16 +8,16 @@
     <maintainer>
       <user>scottmattocks</user>
       <name>Scott Mattocks</name>
-      <email>scott@crisscott.com</email>
+      <email>scottmattocks@php.net</email>
       <role>lead</role>
     </maintainer>
   </maintainers>
   <release>
-    <version>0.2.0alpha1</version>
-    <date>2004-07-01</date>
+    <version>0.3.0beta1</version>
+    <date>2004-08-05</date>
     <license>PHP License</license>
-    <state>devel</state>
-    <notes>First release</notes>
+    <state>beta</state>
+    <notes>Added style set and get methods.</notes>
     <provides type="class" name="Gtk_ScrollingLabel" />
     <provides type="function" name="Gtk_ScrollingLabel::startScroll" />
     <provides type="function" name="Gtk_ScrollingLabel::unPause" />
@@ -45,15 +45,22 @@
     <provides type="function" name="Gtk_ScrollingLabel::getScrollingLabel" />
     <filelist>
       <file role="doc" baseinstalldir="/" md5sum="fa0f069b26e38892e6444b9dde8947ad" name="docs/usage.php"/>
-      <file role="php" baseinstalldir="/" md5sum="38c841fb497e326dbf37502c6c684f8c" name="ScrollingLabel.php"/>
+      <file role="php" baseinstalldir="/" md5sum="13ce017a39abe8d1bf59d639f2ef168e" name="ScrollingLabel.php"/>
     </filelist>
   </release>
   <changelog>
     <release>
+      <version>0.3.0beta1</version>
+      <date>2004-09-01</date>
+      <license>PHP License</license>
+      <state>beta</state>
+      <notes>Upgrade in package state.</notes>
+    </release>
+    <release>
       <version>0.2.0aplha1</version>
       <date>2004-08-05</date>
       <license>PHP License</license>
-      <state>beta</state>
+      <state>alpha</state>
       <notes>Added style set and get.</notes>
     </release>
     <release>
