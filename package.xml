@@ -13,10 +13,10 @@
     </maintainer>
   </maintainers>
   <release>
-    <version>0.1.0</version>
+    <version>0.1.0dev1</version>
     <date>2004-07-01</date>
     <license>PHP License</license>
-    <state>alpha</state>
+    <state>devel</state>
     <notes>First release</notes>
     <provides type="class" name="Gtk_ScrollingLabel" />
     <provides type="function" name="Gtk_ScrollingLabel::startScroll" />
@@ -49,10 +49,10 @@
   </release>
   <changelog>
     <release>
-      <version>0.1.0</version>
+      <version>0.1.0devel1</version>
       <date>2004-07-01</date>
       <license>PHP License</license>
-      <state>alpha</state>
+      <state>devel</state>
       <notes>First release</notes>
     </release>
   </changelog>
