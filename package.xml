@@ -13,7 +13,7 @@
     </maintainer>
   </maintainers>
   <release>
-    <version>0.1.0dev1</version>
+    <version>0.2.0alpha1</version>
     <date>2004-07-01</date>
     <license>PHP License</license>
     <state>devel</state>
@@ -31,6 +31,7 @@
     <provides type="function" name="Gtk_ScrollingLabel::setDirection" />
     <provides type="function" name="Gtk_ScrollingLabel::bounce" />
     <provides type="function" name="Gtk_ScrollingLabel::setStyle" />
+    <provides type="function" name="Gtk_ScrollingLabel::getStyle" />
     <provides type="function" name="Gtk_ScrollingLabel::getVisibleText" />
     <provides type="function" name="Gtk_ScrollingLabel::padText" />
     <provides type="function" name="Gtk_ScrollingLabel::getFullText" />
@@ -44,16 +45,23 @@
     <provides type="function" name="Gtk_ScrollingLabel::getScrollingLabel" />
     <filelist>
       <file role="doc" baseinstalldir="/" md5sum="fa0f069b26e38892e6444b9dde8947ad" name="docs/usage.php"/>
-      <file role="php" baseinstalldir="/" md5sum="22c04427a16a4d4250679ab3fc822185" name="ScrollingLabel.php"/>
+      <file role="php" baseinstalldir="/" md5sum="38c841fb497e326dbf37502c6c684f8c" name="ScrollingLabel.php"/>
     </filelist>
   </release>
   <changelog>
     <release>
-      <version>0.1.0devel1</version>
+      <version>0.1.0dev1</version>
       <date>2004-07-01</date>
       <license>PHP License</license>
       <state>devel</state>
       <notes>First release</notes>
+    </release>
+    <release>
+      <version>0.2.0aplha1</version>
+      <date>2004-08-05</date>
+      <license>PHP License</license>
+      <state>beta</state>
+      <notes>Added style set and get.</notes>
     </release>
   </changelog>
 </package>
