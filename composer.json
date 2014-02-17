@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "email": "scottmattocks@php.net",
+            "name": "Scott Mattocks",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "description": "More info available on: http://pear.php.net/package/Gtk_ScrollingLabel",
+    "license": "PHP License",
+    "name": "pear/gtk_scrollinglabel",
+    "support": {
+        "issues": "http:///bugs/search.php?cmd=display&package_name[]=Gtk_ScrollingLabel",
+        "source": "https://github.com/pear/Gtk_ScrollingLabel"
+    },
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
